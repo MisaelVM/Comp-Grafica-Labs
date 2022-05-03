@@ -2,7 +2,7 @@
 
 ## Identificación
 
-<p style="text-align: center;">
+<p align="center">
 	<b>UNIVERSIDAD NACIONAL DE SAN AGUSTÍN DE AREQUIPA</b><br>
 	<b>FACULTAD DE INGENIERÍA DE PRODUCCIÓN Y SERVICIOS</b><br>
 	<b>ESCUELA PROFESIONAL DE CIENCIA DE LA COMPUTACIÓN</b><br>
