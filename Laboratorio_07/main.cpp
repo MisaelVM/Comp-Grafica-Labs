@@ -3,8 +3,12 @@
 
 #include <iostream>
 
+#define STB_IMAGE_IMPLEMENTATION
 #include <stb_image/stb_image.h>
+
 #include "Shader.h"
+
+#include <glm/gtc/matrix_transform.hpp>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
@@ -160,9 +164,6 @@ int main()
 		shaderProgram.setUniformMatrix4f("u_MVP", MVP);
 
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-
-		system("cls");
-		std::cout << "(" << position.x << ", " << position.y << ")\n";
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();

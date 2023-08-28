@@ -1,6 +1,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+#define STB_IMAGE_IMPLEMENTATION
 #include <stb_image/stb_image.h>
 
 #include <iostream>
@@ -113,7 +114,7 @@ int main()
 
 	stbi_set_flip_vertically_on_load(1);
 	int width, height, nrChannels;
-	unsigned char* data = stbi_load("images/container.jpg", &width, &height, &nrChannels, 0);
+	unsigned char* data = stbi_load("../images/container.jpg", &width, &height, &nrChannels, 0);
 	if (!data)
 		std::cout << "Failed to load texture\n";
 
@@ -130,7 +131,7 @@ int main()
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
-	data = stbi_load("images/awesomeface.png", &width, &height, &nrChannels, 0);
+	data = stbi_load("../images/awesomeface.png", &width, &height, &nrChannels, 0);
 	if (!data)
 		std::cout << "Failed to load texture\n";
 

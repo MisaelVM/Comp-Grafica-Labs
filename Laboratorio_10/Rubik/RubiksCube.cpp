@@ -1,5 +1,11 @@
 #include "RubiksCube.h"
 
+#include <glad/glad.h>
+
+#include <iostream>
+#include <cmath>
+#include <numeric>
+
 RubiksCube::RubiksCube() {
 	std::vector<glm::vec3> cubPositions;
 	int i, j, k;

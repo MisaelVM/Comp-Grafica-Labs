@@ -1,5 +1,10 @@
 #include "RubiksCube.h"
 
+#include <glad/glad.h>
+
+#include <glm/gtc/quaternion.hpp>
+#include <glm/gtx/quaternion.hpp>
+
 RubiksCube::RubiksCube() {
 	cubPositions = {
 		glm::vec3(-1.0f, -1.0f, -1.0f),

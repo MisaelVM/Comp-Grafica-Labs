@@ -24,9 +24,12 @@
 *.lai
 *.la
 *.a
+!libglfw3.a
 *.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+.vscode/

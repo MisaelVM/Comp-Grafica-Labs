@@ -1,10 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "glm/gtc/type_ptr.hpp"
-
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
@@ -15,6 +11,9 @@
 #include "GL/ElementBuffer.h"
 
 #include "Rubik/RubiksCube.h"
+
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 RubiksCube Rubik;
 

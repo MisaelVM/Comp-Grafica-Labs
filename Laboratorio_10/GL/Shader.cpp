@@ -1,5 +1,14 @@
 #include "Shader.h"
 
+#include <glad/glad.h>
+
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
+#include <fstream>
+#include <sstream>
+#include <iostream>
+
 Shader::Shader(const std::string& vertexShaderPath, const std::string& fragmentShaderPath) {
 	std::string vertexShaderSource = parseShader(vertexShaderPath);
 	std::string fragmentShaderSource = parseShader(fragmentShaderPath);

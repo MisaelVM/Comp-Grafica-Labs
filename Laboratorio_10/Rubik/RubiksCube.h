@@ -3,22 +3,19 @@
 #ifndef RUBIKSCUBE_H
 #define RUBIKSCUBE_H
 
-#include "GL/VertexArray.h"
-#include "GL/VertexBuffer.h"
-#include "GL/ElementBuffer.h"
-#include "GL/Shader.h"
-#include "GL/Texture.h"
+#include <GL/VertexArray.h>
+#include <GL/ElementBuffer.h>
+#include <GL/Shader.h>
+#include <GL/Texture.h>
 
-#include "Rubik/Solver/rubik_cube.hpp"
-#include "Rubik/Solver/rubik_cube_solver.hpp"
+#include <Rubik/Solver/rubik_cube.hpp>
+#include <Rubik/Solver/rubik_cube_solver.hpp>
 
-#include "glm/gtc/quaternion.hpp"
-#include "glm/gtx/quaternion.hpp"
+#include <glm/gtc/quaternion.hpp>
+#include <glm/gtx/quaternion.hpp>
 
 #include <queue>
-#include <cmath>
 #include <cstring>
-#include <numeric>
 #include <vector>
 
 struct Cube {

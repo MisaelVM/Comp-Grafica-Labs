@@ -1,5 +1,7 @@
 #include "ElementBuffer.h"
 
+#include <glad/glad.h>
+
 ElementBuffer::ElementBuffer(const void* data, unsigned int size) {
 	glGenBuffers(1, &elementBufferID);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, elementBufferID);

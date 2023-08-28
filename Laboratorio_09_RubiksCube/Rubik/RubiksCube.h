@@ -3,13 +3,9 @@
 #ifndef RUBIKSCUBE_H
 #define RUBIKSCUBE_H
 
-#include "GL/VertexArray.h"
-#include "GL/VertexBuffer.h"
-#include "GL/ElementBuffer.h"
-#include "GL/Shader.h"
-
-#include "glm/gtc/quaternion.hpp"
-#include "glm/gtx/quaternion.hpp"
+#include <GL/VertexArray.h>
+#include <GL/ElementBuffer.h>
+#include <GL/Shader.h>
 
 #include <queue>
 #include <vector>

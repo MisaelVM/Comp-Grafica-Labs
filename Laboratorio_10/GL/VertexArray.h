@@ -4,7 +4,6 @@
 #define VERTEXARRAY_H
 
 #include "VertexBuffer.h"
-#include "glad/glad.h"
 
 class VertexArray {
 private:

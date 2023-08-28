@@ -3,8 +3,12 @@
 
 #include <iostream>
 
+#define STB_IMAGE_IMPLEMENTATION
 #include <stb_image/stb_image.h>
+
 #include "Shader.h"
+
+#include <glm/gtc/matrix_transform.hpp>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
